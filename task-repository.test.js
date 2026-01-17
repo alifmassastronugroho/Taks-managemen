@@ -9,8 +9,8 @@
 const { TestDataFactory, TestAssertions, MockFactory, TestEnvironment } = require('./test-utilities');
 
 // Import the Task Repository and related classes
-const { TaskRepository } = require('../day2-requirements-design/task-repository');
-const Task = require('../day2-requirements-design/enhanced-task-model');
+const { TaskRepository } = require('../Taks-managemen/task-repository');
+const Task = require('../Taks-managemen/enhanced-task-model');
 
 describe('Task Repository', () => {
     let repository;

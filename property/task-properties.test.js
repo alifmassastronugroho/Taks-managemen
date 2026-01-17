@@ -9,7 +9,7 @@
 const { TestDataFactory, TestAssertions, TestEnvironment } = require('../test-utilities');
 
 // Import the Task model for property testing
-const Task = require('../../day2-requirements-design/enhanced-task-model');
+const Task = require('../../Taks-managemen/enhanced-task-model');
 
 // Note: In a real implementation, you would use fast-check or similar library
 // For this educational example, we'll simulate property-based testing concepts
