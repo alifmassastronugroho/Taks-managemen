@@ -9,7 +9,7 @@
 const { TestDataFactory, TestAssertions, TestEnvironment } = require('./test-utilities');
 
 // Import the enhanced Task model from Day 2
-const Task = require('../day2-requirements-design/enhanced-task-model');
+const Task = require('../Taks-managemen/enhanced-task-model');
 
 describe('Enhanced Task Model', () => {
     let mockDate;

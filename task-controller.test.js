@@ -9,7 +9,7 @@
 const { TestDataFactory, TestAssertions, MockFactory, TestEnvironment } = require('./test-utilities');
 
 // Import the Task Controller and related classes
-const { TaskController } = require('../day2-requirements-design/task-controller');
+const { TaskController } = require('../Taks-managemen/task-controller');
 
 describe('Task Controller', () => {
     let controller;
