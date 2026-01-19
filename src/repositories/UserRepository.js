@@ -1,12 +1,7 @@
 /**
  * User Repository - Mengelola penyimpanan dan pengambilan data User
- * 
- * Repository Pattern:
- * - Abstraksi untuk akses data
- * - Memisahkan business logic dari storage logic
- * - Mudah untuk testing dan switching storage
+ * const User = require('../models/User');
  */
-const User = require('../models/User');
 class UserRepository {
     constructor(storageManager) {
         this.storage = storageManager;

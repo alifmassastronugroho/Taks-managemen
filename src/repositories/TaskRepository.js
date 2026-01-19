@@ -1,13 +1,7 @@
 /**
  * Task Repository - Mengelola penyimpanan dan pengambilan data Task
- * 
- * Repository Pattern untuk Task dengan fitur:
- * - CRUD operations
- * - Query methods (filter, search, sort)
- * - User-specific operations
- * - Statistics dan reporting
+ * const EnhancedTask = require('../models/EnhancedTask');
  */
-const EnhancedTask = require('../models/EnhancedTask');
 class TaskRepository {
     constructor(storageManager) {
         this.storage = storageManager;
